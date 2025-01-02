@@ -19,6 +19,7 @@ class Parcel(TypedDict):
     weight: float
     dimensions: ParcelDimensions
     fragile: bool
+
 class Order(TypedDict):
     id: str
     consumer: Consumer
